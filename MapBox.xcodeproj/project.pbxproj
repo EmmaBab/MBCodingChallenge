@@ -15,6 +15,8 @@
 		C92274BD1FE1175700D25CBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C92274BB1FE1175700D25CBB /* LaunchScreen.storyboard */; };
 		C92274C81FE1175700D25CBB /* MapBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92274C71FE1175700D25CBB /* MapBoxTests.swift */; };
 		C92274D31FE1175700D25CBB /* MapBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92274D21FE1175700D25CBB /* MapBoxUITests.swift */; };
+		C92274E31FE11AE400D25CBB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92274E21FE11AE400D25CBB /* DetailViewController.swift */; };
+		C92274E51FE11FCA00D25CBB /* tree-2435269_960_720.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C92274E41FE11FC900D25CBB /* tree-2435269_960_720.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		C92274CE1FE1175700D25CBB /* MapBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C92274D21FE1175700D25CBB /* MapBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapBoxUITests.swift; sourceTree = "<group>"; };
 		C92274D41FE1175700D25CBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C92274E21FE11AE400D25CBB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C92274E41FE11FC900D25CBB /* tree-2435269_960_720.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tree-2435269_960_720.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +105,10 @@
 			children = (
 				C92274AF1FE1175700D25CBB /* AppDelegate.swift */,
 				C92274B11FE1175700D25CBB /* ViewController.swift */,
+				C92274E21FE11AE400D25CBB /* DetailViewController.swift */,
 				C92274B31FE1175700D25CBB /* Main.storyboard */,
 				C92274B91FE1175700D25CBB /* Assets.xcassets */,
+				C92274E41FE11FC900D25CBB /* tree-2435269_960_720.jpg */,
 				C92274BB1FE1175700D25CBB /* LaunchScreen.storyboard */,
 				C92274BE1FE1175700D25CBB /* Info.plist */,
 				C92274B61FE1175700D25CBB /* MapBox.xcdatamodeld */,
@@ -236,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C92274BD1FE1175700D25CBB /* LaunchScreen.storyboard in Resources */,
+				C92274E51FE11FCA00D25CBB /* tree-2435269_960_720.jpg in Resources */,
 				C92274BA1FE1175700D25CBB /* Assets.xcassets in Resources */,
 				C92274B51FE1175700D25CBB /* Main.storyboard in Resources */,
 			);
@@ -265,6 +272,7 @@
 				C92274B81FE1175700D25CBB /* MapBox.xcdatamodeld in Sources */,
 				C92274B21FE1175700D25CBB /* ViewController.swift in Sources */,
 				C92274B01FE1175700D25CBB /* AppDelegate.swift in Sources */,
+				C92274E31FE11AE400D25CBB /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
